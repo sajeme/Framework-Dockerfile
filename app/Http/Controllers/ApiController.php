@@ -9,21 +9,21 @@ class ApiController extends Controller
     public function alumnos(): JsonResponse
     {
         $alumnos = [
-            ['nombre' => 'Juan Pérez', 'matricula' => 'A001'],
-            ['nombre' => 'María García', 'matricula' => 'A002'],
-            ['nombre' => 'Luis Rodríguez', 'matricula' => 'A003'],
-            ['nombre' => 'Ana Martínez', 'matricula' => 'A004'],
-            ['nombre' => 'Carlos López', 'matricula' => 'A005'],
-            ['nombre' => 'Sofía Torres', 'matricula' => 'A006'],
-            ['nombre' => 'Pedro Ramírez', 'matricula' => 'A007'],
-            ['nombre' => 'Laura Sánchez', 'matricula' => 'A008'],
-            ['nombre' => 'Miguel Hernández', 'matricula' => 'A009'],
-            ['nombre' => 'Isabela Díaz', 'matricula' => 'A010'],
-            ['nombre' => 'Diego Fernández', 'matricula' => 'A011'],
-            ['nombre' => 'Valentina Gómez', 'matricula' => 'A012'],
-            ['nombre' => 'Mateo Ruiz', 'matricula' => 'A013'],
-            ['nombre' => 'Camila Álvarez', 'matricula' => 'A014'],
-            ['nombre' => 'Sebastián Jiménez', 'matricula' => 'A015'],
+            ['nombre' => 'Juan Pérez', 'matricula' => 'A221'],
+            ['nombre' => 'María ', 'matricula' => 'A222'],
+            ['nombre' => 'Luis ', 'matricula' => 'A223'],
+            ['nombre' => 'Ana ', 'matricula' => 'A224'],
+            ['nombre' => 'Carlos ', 'matricula' => 'A225'],
+            ['nombre' => 'Sofía ', 'matricula' => 'A226'],
+            ['nombre' => 'Pedro ', 'matricula' => 'A227'],
+            ['nombre' => 'Laura ', 'matricula' => 'A228'],
+            ['nombre' => 'Miguel ', 'matricula' => 'A229'],
+            ['nombre' => ' Díaz', 'matricula' => 'A210'],
+            ['nombre' => 'Diego ', 'matricula' => 'A211'],
+            ['nombre' => 'Valentina ', 'matricula' => 'A212'],
+            ['nombre' => 'Mateo ', 'matricula' => 'A213'],
+            ['nombre' => 'Camila ', 'matricula' => 'A214'],
+            ['nombre' => 'Sebastián ', 'matricula' => 'A215'],
         ];
 
         return response()->json($alumnos);
@@ -32,21 +32,21 @@ class ApiController extends Controller
     public function profesores(): JsonResponse
     {
         $profesores = [
-            ['nombre' => 'Dr. Carlos Sánchez', 'numeroEmpleado' => 'E101'],
-            ['nombre' => 'Dra. Laura López', 'numeroEmpleado' => 'E102'],
-            ['nombre' => 'Ing. Pedro Ramírez', 'numeroEmpleado' => 'E103'],
-            ['nombre' => 'Lic. Sofía Torres', 'numeroEmpleado' => 'E104'],
-            ['nombre' => 'Dr. Javier Morales', 'numeroEmpleado' => 'E105'],
-            ['nombre' => 'Dra. Elena Castro', 'numeroEmpleado' => 'E106'],
-            ['nombre' => 'Ing. Ricardo Núñez', 'numeroEmpleado' => 'E107'],
-            ['nombre' => 'Lic. Patricia Vega', 'numeroEmpleado' => 'E108'],
-            ['nombre' => 'Dr. Roberto Ortiz', 'numeroEmpleado' => 'E109'],
-            ['nombre' => 'Dra. Marta Silva', 'numeroEmpleado' => 'E110'],
-            ['nombre' => 'Ing. Fernando Guzmán', 'numeroEmpleado' => 'E111'],
-            ['nombre' => 'Lic. Andrea Romero', 'numeroEmpleado' => 'E112'],
-            ['nombre' => 'Dr. Jorge Medina', 'numeroEmpleado' => 'E113'],
-            ['nombre' => 'Dra. Luisa Herrera', 'numeroEmpleado' => 'E114'],
-            ['nombre' => 'Ing. Daniel Castro', 'numeroEmpleado' => 'E115'],
+            ['nombre' => 'Dr Carlos Juarez', 'numeroEmpleado' => 'E11'],
+            ['nombre' => 'Dr Fernando Canul', 'numeroEmpleado' => 'E12'],
+            ['nombre' => 'Ing Pedro ', 'numeroEmpleado' => 'E13'],
+            ['nombre' => 'Lic Sofía ', 'numeroEmpleado' => 'E14'],
+            ['nombre' => 'Dr Javier ', 'numeroEmpleado' => 'E15'],
+            ['nombre' => 'Dr Elena ', 'numeroEmpleado' => 'E16'],
+            ['nombre' => 'Ing Ricardo ', 'numeroEmpleado' => 'E17'],
+            ['nombre' => 'Lic Patricia Vega', 'numeroEmpleado' => 'E18'],
+            ['nombre' => 'Dr Roberto ', 'numeroEmpleado' => 'E19'],
+            ['nombre' => 'Dra Marta ', 'numeroEmpleado' => 'E110'],
+            ['nombre' => 'Ing Fernando ', 'numeroEmpleado' => 'E111'],
+            ['nombre' => 'Lic Andrea ', 'numeroEmpleado' => 'E112'],
+            ['nombre' => 'Dr Jorge Medina', 'numeroEmpleado' => 'E113'],
+            ['nombre' => 'Dr Luisa ', 'numeroEmpleado' => 'E114'],
+            ['nombre' => 'Ing Daniel ', 'numeroEmpleado' => 'E115'],
         ];
 
         return response()->json($profesores);
